@@ -9,7 +9,7 @@ module.exports = {
     },
 
     resolve: {
-        extensions: ['', '.js', '.jsx'],
+        extensions: ['.js', '.jsx'],
     },
     module: {
         rules:[
@@ -18,6 +18,6 @@ module.exports = {
                 exclude: /node_modules/,
                 use: 'babel-loader', 
             }
-        ],
+        ]
     }
 }
